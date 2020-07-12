@@ -39,8 +39,8 @@ Assigns Descriptive Column Names from features vector to merged_set vector creat
 Extracts columns with std dev and mean measurements.
 
 ```R
-  names(merged_set) <- features[ ,1]
-  m_data <- m_set[ grepl("std|mean", names(m_data), ignore.case = TRUE) ]  
+  names(m_data) <- features[ ,1]
+  m_data <- m_data[ grepl("std|mean", names(m_data), ignore.case = TRUE) ]  
 ```
 
 Assigns Descriptive Names for Activity Columns.
