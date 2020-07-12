@@ -25,7 +25,7 @@ Possible Values : 1 to 30 (integer)
 Activity : The activity label that describes the kind of measurement.
 Possible Values : LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS.
 
-Signal Measurement : 86 possible variables, mean and std deviation extracted from the sensor signals (accelerometer and gyroscope) that are stored in the original dataset
+Signal Measurement : 86 possible variables, average values of all mean and standard deviation measurements from the sensor signals (accelerometer and gyroscope) for each activity and subject that are stored in the original dataset.
 Possible Values : Numeric
 
 Variables:
